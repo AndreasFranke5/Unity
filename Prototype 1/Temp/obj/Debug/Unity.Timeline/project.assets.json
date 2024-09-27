@@ -86,11 +86,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.Timeline.csproj",
+      "projectUniqueName": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.Timeline.csproj",
       "projectName": "Unity.Timeline",
-      "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.Timeline.csproj",
+      "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.Timeline.csproj",
       "packagesPath": "C:\\Users\\frank\\.nuget\\packages\\",
-      "outputPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Temp\\obj\\Debug\\Unity.Timeline\\",
+      "outputPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Temp\\obj\\Debug\\Unity.Timeline\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\frank\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -105,11 +105,11 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj": {
-              "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj"
+            "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj": {
+              "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj"
             },
-            "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {
-              "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj"
+            "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {
+              "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj"
             }
           }
         }

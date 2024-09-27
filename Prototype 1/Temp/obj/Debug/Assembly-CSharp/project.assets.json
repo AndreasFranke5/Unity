@@ -428,53 +428,53 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.PlasticSCM.Editor.csproj": {
-              "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.PlasticSCM.Editor.csproj"
+            "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.PlasticSCM.Editor.csproj": {
+              "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.PlasticSCM.Editor.csproj"
             },
             "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.TextMeshPro.csproj": {
               "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.TextMeshPro.csproj"
             },
-            "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.TextMeshPro.Editor.csproj": {
-              "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.TextMeshPro.Editor.csproj"
+            "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.TextMeshPro.Editor.csproj": {
+              "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.TextMeshPro.Editor.csproj"
             },
-            "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.Timeline.csproj": {
-              "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.Timeline.csproj"
+            "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.Timeline.csproj": {
+              "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.Timeline.csproj"
             },
-            "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.Timeline.Editor.csproj": {
-              "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.Timeline.Editor.csproj"
+            "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.Timeline.Editor.csproj": {
+              "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.Timeline.Editor.csproj"
             },
-            "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj": {
-              "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj"
+            "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj": {
+              "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj"
             },
-            "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.Editor.csproj": {
-              "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.Editor.csproj"
+            "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.Editor.csproj": {
+              "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.Editor.csproj"
             },
-            "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Flow.csproj": {
-              "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Flow.csproj"
+            "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Flow.csproj": {
+              "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Flow.csproj"
             },
             "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Flow.Editor.csproj": {
               "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Flow.Editor.csproj"
             },
-            "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.SettingsProvider.Editor.csproj": {
-              "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.SettingsProvider.Editor.csproj"
+            "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.SettingsProvider.Editor.csproj": {
+              "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.SettingsProvider.Editor.csproj"
             },
-            "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Shared.Editor.csproj": {
-              "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Shared.Editor.csproj"
+            "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Shared.Editor.csproj": {
+              "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Shared.Editor.csproj"
             },
-            "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.State.csproj": {
-              "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.State.csproj"
+            "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.State.csproj": {
+              "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.State.csproj"
             },
-            "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.State.Editor.csproj": {
-              "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.State.Editor.csproj"
+            "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.State.Editor.csproj": {
+              "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.State.Editor.csproj"
             },
-            "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualStudio.Editor.csproj": {
-              "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualStudio.Editor.csproj"
+            "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualStudio.Editor.csproj": {
+              "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualStudio.Editor.csproj"
             },
-            "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj": {
-              "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj"
+            "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj": {
+              "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj"
             },
-            "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {
-              "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj"
+            "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {
+              "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj"
             }
           }
         }

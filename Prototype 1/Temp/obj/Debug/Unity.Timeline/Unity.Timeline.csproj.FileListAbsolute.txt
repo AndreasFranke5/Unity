@@ -1,0 +1,14 @@
+C:\Unity\CreateWithCode\Prototype 1\Temp\bin\Debug\Unity.Timeline.deps.json
+c:\Unity\CreateWithCode\Prototype 1\Temp\bin\Debug\Unity.Timeline.dll
+c:\Unity\CreateWithCode\Prototype 1\Temp\bin\Debug\Unity.Timeline.pdb
+c:\Unity\CreateWithCode\Prototype 1\Temp\bin\Debug\UnityEditor.UI.pdb
+c:\Unity\CreateWithCode\Prototype 1\Temp\bin\Debug\UnityEngine.UI.pdb
+c:\Unity\CreateWithCode\Prototype 1\Temp\bin\Debug\UnityEditor.TestRunner.pdb
+c:\Unity\CreateWithCode\Prototype 1\Temp\bin\Debug\UnityEngine.TestRunner.pdb
+c:\Unity\CreateWithCode\Prototype 1\Temp\obj\Debug\Unity.Timeline\Unity.Timeline.csproj.AssemblyReference.cache
+c:\Unity\CreateWithCode\Prototype 1\Temp\obj\Debug\Unity.Timeline\Unity.Timeline.GeneratedMSBuildEditorConfig.editorconfig
+c:\Unity\CreateWithCode\Prototype 1\Temp\obj\Debug\Unity.Timeline\Unity.Timeline.csproj.CoreCompileInputs.cache
+c:\Unity\CreateWithCode\Prototype 1\Temp\obj\Debug\Unity.Timeline\Unity.Timeline.sourcelink.json
+C:\Unity\CreateWithCode\Prototype 1\Temp\obj\Debug\Unity.Timeline\Unity.Ti.0A14E847.Up2Date
+c:\Unity\CreateWithCode\Prototype 1\Temp\obj\Debug\Unity.Timeline\Unity.Timeline.dll
+c:\Unity\CreateWithCode\Prototype 1\Temp\obj\Debug\Unity.Timeline\Unity.Timeline.pdb

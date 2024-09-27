@@ -1,0 +1,9 @@
+C:\Unity\CreateWithCode\Prototype 1\Temp\bin\Debug\UnityEngine.TestRunner.deps.json
+c:\Unity\CreateWithCode\Prototype 1\Temp\bin\Debug\UnityEngine.TestRunner.dll
+c:\Unity\CreateWithCode\Prototype 1\Temp\bin\Debug\UnityEngine.TestRunner.pdb
+c:\Unity\CreateWithCode\Prototype 1\Temp\obj\Debug\UnityEngine.TestRunner\UnityEngine.TestRunner.csproj.AssemblyReference.cache
+c:\Unity\CreateWithCode\Prototype 1\Temp\obj\Debug\UnityEngine.TestRunner\UnityEngine.TestRunner.GeneratedMSBuildEditorConfig.editorconfig
+c:\Unity\CreateWithCode\Prototype 1\Temp\obj\Debug\UnityEngine.TestRunner\UnityEngine.TestRunner.csproj.CoreCompileInputs.cache
+c:\Unity\CreateWithCode\Prototype 1\Temp\obj\Debug\UnityEngine.TestRunner\UnityEngine.TestRunner.sourcelink.json
+c:\Unity\CreateWithCode\Prototype 1\Temp\obj\Debug\UnityEngine.TestRunner\UnityEngine.TestRunner.dll
+c:\Unity\CreateWithCode\Prototype 1\Temp\obj\Debug\UnityEngine.TestRunner\UnityEngine.TestRunner.pdb

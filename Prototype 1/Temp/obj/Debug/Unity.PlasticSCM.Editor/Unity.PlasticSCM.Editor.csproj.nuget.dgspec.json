@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.PlasticSCM.Editor.csproj": {}
+    "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.PlasticSCM.Editor.csproj": {}
   },
   "projects": {
-    "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.PlasticSCM.Editor.csproj": {
+    "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.PlasticSCM.Editor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.PlasticSCM.Editor.csproj",
+        "projectUniqueName": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.PlasticSCM.Editor.csproj",
         "projectName": "Unity.PlasticSCM.Editor",
-        "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.PlasticSCM.Editor.csproj",
+        "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.PlasticSCM.Editor.csproj",
         "packagesPath": "C:\\Users\\frank\\.nuget\\packages\\",
-        "outputPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Temp\\obj\\Debug\\Unity.PlasticSCM.Editor\\",
+        "outputPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Temp\\obj\\Debug\\Unity.PlasticSCM.Editor\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\frank\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,17 +26,17 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj": {
-                "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj"
+              "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj"
               },
-              "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj": {
-                "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj"
+              "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj": {
+                "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj"
               },
               "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.TestRunner.csproj": {
                 "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.TestRunner.csproj"
               },
-              "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {
-                "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj"
+              "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {
+                "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj"
               }
             }
           }
@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj": {
+    "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj",
+        "projectUniqueName": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj",
         "projectName": "UnityEditor.TestRunner",
-        "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj",
+        "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj",
         "packagesPath": "C:\\Users\\frank\\.nuget\\packages\\",
-        "outputPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Temp\\obj\\Debug\\UnityEditor.TestRunner\\",
+        "outputPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Temp\\obj\\Debug\\UnityEditor.TestRunner\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\frank\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -129,14 +129,14 @@
         }
       }
     },
-    "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj": {
+    "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj",
+        "projectUniqueName": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj",
         "projectName": "UnityEditor.UI",
-        "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj",
+        "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj",
         "packagesPath": "C:\\Users\\frank\\.nuget\\packages\\",
-        "outputPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Temp\\obj\\Debug\\UnityEditor.UI\\",
+        "outputPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Temp\\obj\\Debug\\UnityEditor.UI\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\frank\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -151,14 +151,14 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj": {
-                "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj"
+              "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj"
               },
               "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.TestRunner.csproj": {
                 "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.TestRunner.csproj"
               },
-              "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {
-                "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj"
+              "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {
+                "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj"
               }
             }
           }
@@ -247,14 +247,14 @@
         }
       }
     },
-    "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {
+    "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj",
+        "projectUniqueName": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj",
         "projectName": "UnityEngine.UI",
-        "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj",
+        "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj",
         "packagesPath": "C:\\Users\\frank\\.nuget\\packages\\",
-        "outputPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Temp\\obj\\Debug\\UnityEngine.UI\\",
+        "outputPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Temp\\obj\\Debug\\UnityEngine.UI\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\frank\\AppData\\Roaming\\NuGet\\NuGet.Config"

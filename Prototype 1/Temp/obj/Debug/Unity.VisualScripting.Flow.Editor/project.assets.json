@@ -171,26 +171,26 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj": {
-              "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj"
+            "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj": {
+              "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj"
             },
-            "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.Editor.csproj": {
-              "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.Editor.csproj"
+            "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.Editor.csproj": {
+              "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.Editor.csproj"
             },
-            "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Flow.csproj": {
-              "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Flow.csproj"
+            "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Flow.csproj": {
+              "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Flow.csproj"
             },
-            "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj": {
-              "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj"
+            "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj": {
+              "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj"
             },
-            "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj": {
-              "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj"
+            "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj": {
+              "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj"
             },
             "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.TestRunner.csproj": {
               "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.TestRunner.csproj"
             },
-            "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {
-              "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj"
+            "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {
+              "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj"
             }
           }
         }

@@ -1,0 +1,15 @@
+C:\Unity\CreateWithCode\Prototype 1\Temp\bin\Debug\Unity.TextMeshPro.Editor.deps.json
+c:\Unity\CreateWithCode\Prototype 1\Temp\bin\Debug\Unity.TextMeshPro.Editor.dll
+c:\Unity\CreateWithCode\Prototype 1\Temp\bin\Debug\Unity.TextMeshPro.Editor.pdb
+c:\Unity\CreateWithCode\Prototype 1\Temp\bin\Debug\Unity.TextMeshPro.pdb
+c:\Unity\CreateWithCode\Prototype 1\Temp\bin\Debug\UnityEditor.UI.pdb
+c:\Unity\CreateWithCode\Prototype 1\Temp\bin\Debug\UnityEngine.UI.pdb
+c:\Unity\CreateWithCode\Prototype 1\Temp\bin\Debug\UnityEngine.TestRunner.pdb
+c:\Unity\CreateWithCode\Prototype 1\Temp\bin\Debug\UnityEditor.TestRunner.pdb
+c:\Unity\CreateWithCode\Prototype 1\Temp\obj\Debug\Unity.TextMeshPro.Editor\Unity.TextMeshPro.Editor.csproj.AssemblyReference.cache
+c:\Unity\CreateWithCode\Prototype 1\Temp\obj\Debug\Unity.TextMeshPro.Editor\Unity.TextMeshPro.Editor.GeneratedMSBuildEditorConfig.editorconfig
+c:\Unity\CreateWithCode\Prototype 1\Temp\obj\Debug\Unity.TextMeshPro.Editor\Unity.TextMeshPro.Editor.csproj.CoreCompileInputs.cache
+c:\Unity\CreateWithCode\Prototype 1\Temp\obj\Debug\Unity.TextMeshPro.Editor\Unity.TextMeshPro.Editor.sourcelink.json
+C:\Unity\CreateWithCode\Prototype 1\Temp\obj\Debug\Unity.TextMeshPro.Editor\Unity.Te.07C9AF3D.Up2Date
+c:\Unity\CreateWithCode\Prototype 1\Temp\obj\Debug\Unity.TextMeshPro.Editor\Unity.TextMeshPro.Editor.dll
+c:\Unity\CreateWithCode\Prototype 1\Temp\obj\Debug\Unity.TextMeshPro.Editor\Unity.TextMeshPro.Editor.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {}
+    "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {}
   },
   "projects": {
-    "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {
+    "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj",
+        "projectUniqueName": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj",
         "projectName": "UnityEngine.UI",
-        "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj",
+        "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj",
         "packagesPath": "C:\\Users\\frank\\.nuget\\packages\\",
-        "outputPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Temp\\obj\\Debug\\UnityEngine.UI\\",
+        "outputPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Temp\\obj\\Debug\\UnityEngine.UI\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\frank\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -105,11 +105,11 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj": {
-              "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj"
+            "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj": {
+              "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj"
             },
-            "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {
-              "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj"
+            "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {
+              "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj"
             }
           }
         }

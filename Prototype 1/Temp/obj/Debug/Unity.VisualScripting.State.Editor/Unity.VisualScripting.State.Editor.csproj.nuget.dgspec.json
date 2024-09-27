@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.State.Editor.csproj": {}
+    "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.State.Editor.csproj": {}
   },
   "projects": {
-    "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj": {
+    "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj",
+        "projectUniqueName": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj",
         "projectName": "Unity.VisualScripting.Core",
-        "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj",
+        "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj",
         "packagesPath": "C:\\Users\\frank\\.nuget\\packages\\",
-        "outputPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Temp\\obj\\Debug\\Unity.VisualScripting.Core\\",
+        "outputPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Temp\\obj\\Debug\\Unity.VisualScripting.Core\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\frank\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,11 +26,11 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj": {
-                "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj"
+              "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj": {
+                "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj"
               },
-              "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {
-                "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj"
+              "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {
+                "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj"
               }
             }
           }
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.Editor.csproj": {
+    "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.Editor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.Editor.csproj",
+        "projectUniqueName": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.Editor.csproj",
         "projectName": "Unity.VisualScripting.Core.Editor",
-        "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.Editor.csproj",
+        "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.Editor.csproj",
         "packagesPath": "C:\\Users\\frank\\.nuget\\packages\\",
-        "outputPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Temp\\obj\\Debug\\Unity.VisualScripting.Core.Editor\\",
+        "outputPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Temp\\obj\\Debug\\Unity.VisualScripting.Core.Editor\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\frank\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -87,20 +87,20 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj": {
-                "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj"
+              "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj": {
+                "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj"
               },
-              "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj": {
-                "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj"
+              "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj"
               },
-              "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj": {
-                "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj"
+              "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj": {
+                "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj"
               },
               "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.TestRunner.csproj": {
                 "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.TestRunner.csproj"
               },
-              "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {
-                "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj"
+              "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {
+                "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj"
               }
             }
           }
@@ -135,14 +135,14 @@
         }
       }
     },
-    "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Flow.csproj": {
+    "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Flow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Flow.csproj",
+        "projectUniqueName": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Flow.csproj",
         "projectName": "Unity.VisualScripting.Flow",
-        "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Flow.csproj",
+        "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Flow.csproj",
         "packagesPath": "C:\\Users\\frank\\.nuget\\packages\\",
-        "outputPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Temp\\obj\\Debug\\Unity.VisualScripting.Flow\\",
+        "outputPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Temp\\obj\\Debug\\Unity.VisualScripting.Flow\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\frank\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -157,14 +157,14 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj": {
-                "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj"
+              "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj": {
+                "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj"
               },
-              "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj": {
-                "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj"
+              "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj": {
+                "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj"
               },
-              "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {
-                "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj"
+              "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {
+                "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj"
               }
             }
           }
@@ -221,26 +221,26 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj": {
-                "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj"
+              "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj": {
+                "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj"
               },
-              "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.Editor.csproj": {
-                "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.Editor.csproj"
+              "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.Editor.csproj": {
+                "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.Editor.csproj"
               },
-              "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Flow.csproj": {
-                "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Flow.csproj"
+              "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Flow.csproj": {
+                "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Flow.csproj"
               },
-              "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj": {
-                "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj"
+              "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj"
               },
-              "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj": {
-                "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj"
+              "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj": {
+                "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj"
               },
               "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.TestRunner.csproj": {
                 "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.TestRunner.csproj"
               },
-              "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {
-                "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj"
+              "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {
+                "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj"
               }
             }
           }
@@ -275,14 +275,14 @@
         }
       }
     },
-    "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.State.csproj": {
+    "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.State.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.State.csproj",
+        "projectUniqueName": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.State.csproj",
         "projectName": "Unity.VisualScripting.State",
-        "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.State.csproj",
+        "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.State.csproj",
         "packagesPath": "C:\\Users\\frank\\.nuget\\packages\\",
-        "outputPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Temp\\obj\\Debug\\Unity.VisualScripting.State\\",
+        "outputPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Temp\\obj\\Debug\\Unity.VisualScripting.State\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\frank\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -297,17 +297,17 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj": {
-                "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj"
+              "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj": {
+                "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj"
               },
-              "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Flow.csproj": {
-                "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Flow.csproj"
+              "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Flow.csproj": {
+                "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Flow.csproj"
               },
-              "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj": {
-                "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj"
+              "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj": {
+                "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj"
               },
-              "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {
-                "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj"
+              "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {
+                "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj"
               }
             }
           }
@@ -342,14 +342,14 @@
         }
       }
     },
-    "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.State.Editor.csproj": {
+    "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.State.Editor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.State.Editor.csproj",
+        "projectUniqueName": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.State.Editor.csproj",
         "projectName": "Unity.VisualScripting.State.Editor",
-        "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.State.Editor.csproj",
+        "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.State.Editor.csproj",
         "packagesPath": "C:\\Users\\frank\\.nuget\\packages\\",
-        "outputPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Temp\\obj\\Debug\\Unity.VisualScripting.State.Editor\\",
+        "outputPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Temp\\obj\\Debug\\Unity.VisualScripting.State.Editor\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\frank\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -364,32 +364,32 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj": {
-                "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj"
+              "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj": {
+                "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.csproj"
               },
-              "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.Editor.csproj": {
-                "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.Editor.csproj"
+              "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.Editor.csproj": {
+                "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Core.Editor.csproj"
               },
-              "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Flow.csproj": {
-                "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Flow.csproj"
+              "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Flow.csproj": {
+                "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Flow.csproj"
               },
               "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Flow.Editor.csproj": {
                 "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.Flow.Editor.csproj"
               },
-              "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.State.csproj": {
-                "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.State.csproj"
+              "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.State.csproj": {
+                "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Unity.VisualScripting.State.csproj"
               },
-              "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj": {
-                "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj"
+              "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj"
               },
-              "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj": {
-                "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj"
+              "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj": {
+                "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj"
               },
               "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.TestRunner.csproj": {
                 "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.TestRunner.csproj"
               },
-              "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {
-                "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj"
+              "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {
+                "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj"
               }
             }
           }
@@ -424,14 +424,14 @@
         }
       }
     },
-    "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj": {
+    "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj",
+        "projectUniqueName": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj",
         "projectName": "UnityEditor.TestRunner",
-        "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj",
+        "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj",
         "packagesPath": "C:\\Users\\frank\\.nuget\\packages\\",
-        "outputPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Temp\\obj\\Debug\\UnityEditor.TestRunner\\",
+        "outputPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Temp\\obj\\Debug\\UnityEditor.TestRunner\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\frank\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -482,14 +482,14 @@
         }
       }
     },
-    "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj": {
+    "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj",
+        "projectUniqueName": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj",
         "projectName": "UnityEditor.UI",
-        "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj",
+        "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.UI.csproj",
         "packagesPath": "C:\\Users\\frank\\.nuget\\packages\\",
-        "outputPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Temp\\obj\\Debug\\UnityEditor.UI\\",
+        "outputPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Temp\\obj\\Debug\\UnityEditor.UI\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\frank\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -504,14 +504,14 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj": {
-                "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj"
+              "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEditor.TestRunner.csproj"
               },
               "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.TestRunner.csproj": {
                 "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.TestRunner.csproj"
               },
-              "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {
-                "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj"
+              "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {
+                "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj"
               }
             }
           }
@@ -600,14 +600,14 @@
         }
       }
     },
-    "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {
+    "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj",
+        "projectUniqueName": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj",
         "projectName": "UnityEngine.UI",
-        "projectPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj",
+        "projectPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\UnityEngine.UI.csproj",
         "packagesPath": "C:\\Users\\frank\\.nuget\\packages\\",
-        "outputPath": "C:\\Unity\\CreateWithCode\\Prototype 1\\Temp\\obj\\Debug\\UnityEngine.UI\\",
+        "outputPath": "c:\\Unity\\CreateWithCode\\Prototype 1\\Temp\\obj\\Debug\\UnityEngine.UI\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\frank\\AppData\\Roaming\\NuGet\\NuGet.Config"
