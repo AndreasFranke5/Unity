@@ -1,9 +1,0 @@
-C:\Unity\CreateWithCode\Prototype 1\Temp\bin\Debug\UnityEngine.UI.deps.json
-c:\Unity\CreateWithCode\Prototype 1\Temp\bin\Debug\UnityEngine.UI.dll
-c:\Unity\CreateWithCode\Prototype 1\Temp\bin\Debug\UnityEngine.UI.pdb
-c:\Unity\CreateWithCode\Prototype 1\Temp\obj\Debug\UnityEngine.UI\UnityEngine.UI.csproj.AssemblyReference.cache
-c:\Unity\CreateWithCode\Prototype 1\Temp\obj\Debug\UnityEngine.UI\UnityEngine.UI.GeneratedMSBuildEditorConfig.editorconfig
-c:\Unity\CreateWithCode\Prototype 1\Temp\obj\Debug\UnityEngine.UI\UnityEngine.UI.csproj.CoreCompileInputs.cache
-c:\Unity\CreateWithCode\Prototype 1\Temp\obj\Debug\UnityEngine.UI\UnityEngine.UI.sourcelink.json
-c:\Unity\CreateWithCode\Prototype 1\Temp\obj\Debug\UnityEngine.UI\UnityEngine.UI.dll
-c:\Unity\CreateWithCode\Prototype 1\Temp\obj\Debug\UnityEngine.UI\UnityEngine.UI.pdb
