@@ -15,9 +15,12 @@ public class DetectCollisions : MonoBehaviour
     {
         
     }
-    private void OnTriggerEnter(Collider other)
+
+    public static float projectileScale = 1.0f; // The scale of the projectile
+    private void OnTriggerEnter(Collider other) // When the projectile collides with the animal
     {
         Destroy(gameObject);
         Destroy(other.gameObject);
+        projectileScale += 0.1f; // Increase the scale of the projectile upon successful collision with an animal
     }
 }
