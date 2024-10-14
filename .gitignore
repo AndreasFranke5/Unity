@@ -106,10 +106,3 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
-AFProject5/ProjectSettings/ProjectVersion.txt
-AFProject5/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
-AFProject5/Packages/packages-lock.json
-AFProject5/Packages/manifest.json
-AFProject5/.vscode/settings.json
-AFProject5/.vscode/launch.json
-AFProject5/.vscode/extensions.json
