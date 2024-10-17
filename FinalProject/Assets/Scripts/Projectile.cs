@@ -4,15 +4,25 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public float lifetime = 5f;  // How long before the projectile is destroyed
+
     void Start()
     {
-        
+        // Destroy the projectile after a certain amount of time
+        Destroy(gameObject, lifetime);
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnCollisionEnter(Collision collision)
     {
-        
+        // Optional: Add logic for what happens when the projectile hits something
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Destroy(collision.gameObject);  // Destroy the enemy object
+            Destroy(gameObject);            // Destroy the projectile
+        }
+        else if (collision.gameObject.CompareTag("Wall"))
+        {
+            Destroy(gameObject);  // Destroy the projectile when it hits a wall
+        }
     }
 }
