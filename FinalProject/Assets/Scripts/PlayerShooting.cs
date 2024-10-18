@@ -4,14 +4,13 @@ using UnityEngine;
 
 public class PlayerShooting : MonoBehaviour
 {
-    public GameObject[] projectilePrefabs;  // Array of projectile prefabs for different tiers
-    public Transform firePoint;
-    public float projectileSpeed = 10f;
-    private int currentProjectileTier = 0;  // Index of current projectile tier
+    public GameObject projectilePrefab;  // The projectile prefab
+    public Transform firePoint;          // The location from where the projectile is fired
+    public float projectileSpeed = 10f;  // Speed of the projectile
 
     void Update()
     {
-        // Shoot when Left Ctrl is pressed
+        // Check for shooting input (Left Ctrl for Player 1)
         if (Input.GetKeyDown(KeyCode.LeftControl))
         {
             Shoot();
@@ -20,18 +19,11 @@ public class PlayerShooting : MonoBehaviour
 
     void Shoot()
     {
-        // Instantiate the current tier projectile
-        GameObject projectile = Instantiate(projectilePrefabs[currentProjectileTier], firePoint.position, firePoint.rotation);
+        // Instantiate the projectile at the firePoint's position and rotation
+        GameObject projectile = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
         Rigidbody rb = projectile.GetComponent<Rigidbody>();
-        rb.AddForce(firePoint.forward * projectileSpeed, ForceMode.Impulse);
-    }
 
-    // Function to upgrade projectile tier
-    public void UpgradeProjectile()
-    {
-        if (currentProjectileTier < projectilePrefabs.Length - 1)
-        {
-            currentProjectileTier++;
-        }
+        // Add forward force to the projectile
+        rb.AddForce(firePoint.forward * projectileSpeed, ForceMode.Impulse);
     }
 }
