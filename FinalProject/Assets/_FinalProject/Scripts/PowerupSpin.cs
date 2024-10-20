@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class PowerupSpin : MonoBehaviour
 {
-    public float rotationSpeed = 50f;  // Adjust as needed
+    public float rotationSpeed = 50f;
 
     void Update()
     {
-        transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
+        transform.Rotate(0f, 0f, rotationSpeed * Time.deltaTime, Space.Self);
     }
 }

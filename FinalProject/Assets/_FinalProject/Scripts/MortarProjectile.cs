@@ -5,8 +5,9 @@ using UnityEngine;
 public class MortarProjectile : MonoBehaviour
 {
     public float launchAngle = 45f;
-    public float range = 4f; // The fixed distance where it lands
-    public float explosionRadius = 2f;
+    public float launchSpeed = 10f;
+    public float explosionRadius = 3f;
+    public LayerMask damageLayerMask; // Layer mask for objects that can be damaged
 
     private Rigidbody rb;
 
@@ -14,25 +15,56 @@ public class MortarProjectile : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
 
-        // Calculate velocity to hit target distance
-        float gravity = Physics.gravity.magnitude;
+        // Calculate initial velocity components
         float angleRad = Mathf.Deg2Rad * launchAngle;
-        float velocity = Mathf.Sqrt(range * gravity / Mathf.Sin(2 * angleRad));
+        Vector3 velocity = (transform.forward * Mathf.Cos(angleRad) + transform.up * Mathf.Sin(angleRad)) * launchSpeed;
 
-        // Apply velocity
-        rb.velocity = transform.forward * velocity * Mathf.Cos(angleRad) + transform.up * velocity * Mathf.Sin(angleRad);
+        // Apply velocity to the Rigidbody
+        rb.velocity = velocity;
     }
 
-    void OnCollisionEnter(Collision other)
+    void OnCollisionEnter(Collision collision)
     {
-        // Create explosion and destroy on impact
+        // Explode upon collision
         Explode();
         Destroy(gameObject);
     }
 
     void Explode()
     {
-        // Explosion logic here (optional)
         Debug.Log("Mortar exploded!");
+
+        // Find all colliders within the explosion radius
+        Collider[] colliders = Physics.OverlapSphere(transform.position, explosionRadius, damageLayerMask);
+
+        foreach (Collider nearbyObject in colliders)
+        {
+            // Check if the collider belongs to a player
+            if (nearbyObject.CompareTag("Player1") || nearbyObject.CompareTag("Player2"))
+            {
+                Debug.Log("Mortar hit player: " + nearbyObject.gameObject.name);
+                Destroy(nearbyObject.gameObject);
+
+                // Handle player respawn
+                MultiplayerGameManager gameManager = FindObjectOfType<MultiplayerGameManager>();
+                if (gameManager != null)
+                {
+                    if (nearbyObject.CompareTag("Player1"))
+                    {
+                        gameManager.RespawnPlayer1();
+                    }
+                    else if (nearbyObject.CompareTag("Player2"))
+                    {
+                        gameManager.RespawnPlayer2();
+                    }
+                }
+                else
+                {
+                    Debug.LogError("MultiplayerGameManager not found in the scene.");
+                }
+            }
+        }
+
+        // Optionally, add explosion effects (e.g., particle system, sound)
     }
 }

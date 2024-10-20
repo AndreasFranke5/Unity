@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SingleplayerGameManager : MonoBehaviour
+public class SingleplayerGameManager : MonoBehaviour, IGameManager
 {
     public GameObject playerPrefab;      // Prefab for the player
     public GameObject enemyPrefab;       // Prefab for enemies
@@ -39,11 +39,11 @@ public class SingleplayerGameManager : MonoBehaviour
     // Reference to the player
     private GameObject playerInstance;
 
+    // Game state control
+    private bool gameStarted = false;  // Flag to check if the game has started
+
     void Start()
     {
-        // Spawn the player
-        playerInstance = Instantiate(playerPrefab, player1SpawnPoint.position, Quaternion.identity);
-
         // Reset the powerup and enemy timers
         powerupSpawnTimer = powerupSpawnInterval;
         enemySpawnTimer = enemySpawnInterval;
@@ -51,15 +51,35 @@ public class SingleplayerGameManager : MonoBehaviour
 
     void Update()
     {
-        // Manage powerup spawning over time
-        HandlePowerupSpawning();
-
-        // Manage enemy spawning
-        if (!bossSpawned && enemiesSpawnedThisRound < maxEnemiesPerRound)
+        if (gameStarted)
         {
-            HandleEnemySpawning();
+            // Manage powerup spawning over time
+            HandlePowerupSpawning();
+
+            // Manage enemy spawning
+            if (!bossSpawned && enemiesSpawnedThisRound < maxEnemiesPerRound)
+            {
+                HandleEnemySpawning();
+            }
         }
     }
+
+    // Method to start the game and spawn the player
+    public void StartGame()
+{
+    Debug.Log("StartGame() method called in " + this.GetType().Name);
+    gameStarted = true;  // Set the flag to true to start the game
+
+    // Spawn the player
+    playerInstance = Instantiate(playerPrefab, player1SpawnPoint.position, Quaternion.identity);
+    enemiesShot = 0;
+    enemiesSpawnedThisRound = 0;
+    bossSpawned = false;
+
+    // Log message to confirm game started
+    Debug.Log("Game Started!");
+}
+
 
     // Powerup spawning logic
     private void HandlePowerupSpawning()
@@ -87,6 +107,7 @@ public class SingleplayerGameManager : MonoBehaviour
     // Method to spawn enemies at random points
     private void SpawnEnemy()
     {
+        Debug.Log("Spawning Enemy...");
         int randomIndex = Random.Range(0, enemySpawnPoints.Length);
         Instantiate(enemyPrefab, enemySpawnPoints[randomIndex].position, Quaternion.identity);
         enemiesSpawnedThisRound++;  // Track how many enemies have spawned in this round
@@ -95,6 +116,7 @@ public class SingleplayerGameManager : MonoBehaviour
     // Method to spawn the boss
     private void SpawnBoss()
     {
+        Debug.Log("Spawning Boss...");
         Instantiate(bossPrefab, bossSpawnPoint.position, Quaternion.identity);
         bossSpawned = true;
     }
@@ -102,6 +124,7 @@ public class SingleplayerGameManager : MonoBehaviour
     // Method to spawn powerups at random points with random powerup types
     private void SpawnPowerup()
     {
+        Debug.Log("Spawning Powerup...");
         int randomIndex = Random.Range(0, powerupSpawnPoints.Length);
         int randomPowerup = Random.Range(0, 4); // 4 powerup types
 

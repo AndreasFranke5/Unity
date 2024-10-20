@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CoopGameManager : MonoBehaviour
+public class CoopGameManager : MonoBehaviour, IGameManager
 {
     public GameObject player1Prefab;
     public GameObject player2Prefab;
@@ -42,12 +42,11 @@ public class CoopGameManager : MonoBehaviour
     private GameObject player1Instance;
     private GameObject player2Instance;
 
+    // Game state control
+    private bool gameStarted = false;  // Flag to check if the game has started
+
     void Start()
     {
-        // Spawn both players
-        player1Instance = Instantiate(player1Prefab, player1SpawnPoint.position, Quaternion.identity);
-        player2Instance = Instantiate(player2Prefab, player2SpawnPoint.position, Quaternion.identity);
-
         // Reset the powerup and enemy timers
         powerupSpawnTimer = powerupSpawnInterval;
         enemySpawnTimer = enemySpawnInterval;
@@ -55,14 +54,31 @@ public class CoopGameManager : MonoBehaviour
 
     void Update()
     {
-        // Manage powerup spawning over time
-        HandlePowerupSpawning();
-
-        // Manage enemy spawning
-        if (!bossSpawned && enemiesSpawnedThisRound < maxEnemiesPerRound)
+        if (gameStarted)
         {
-            HandleEnemySpawning();
+            // Manage powerup spawning over time
+            HandlePowerupSpawning();
+
+            // Manage enemy spawning
+            if (!bossSpawned && enemiesSpawnedThisRound < maxEnemiesPerRound)
+            {
+                HandleEnemySpawning();
+            }
         }
+    }
+
+    // Method to start the game and spawn both players
+    public void StartGame()
+    {
+        Debug.Log("StartGame() method called in " + this.GetType().Name);
+        gameStarted = true;  // Set the flag to true to start the game
+
+        // Spawn both players
+        player1Instance = Instantiate(player1Prefab, player1SpawnPoint.position, Quaternion.identity);
+        player2Instance = Instantiate(player2Prefab, player2SpawnPoint.position, Quaternion.identity);
+
+        // Log message to confirm game started
+        Debug.Log("Co-op Game Started!");
     }
 
     private void HandlePowerupSpawning()
@@ -89,6 +105,7 @@ public class CoopGameManager : MonoBehaviour
 
     private void SpawnEnemy()
     {
+        Debug.Log("Spawning enemy...");
         int randomIndex = Random.Range(0, enemySpawnPoints.Length);
         Instantiate(enemyPrefab, enemySpawnPoints[randomIndex].position, Quaternion.identity);
         enemiesSpawnedThisRound++;  // Track how many enemies have spawned in this round
@@ -96,12 +113,14 @@ public class CoopGameManager : MonoBehaviour
 
     private void SpawnBoss()
     {
+        Debug.Log("Spawning boss...");
         Instantiate(bossPrefab, bossSpawnPoint.position, Quaternion.identity);
         bossSpawned = true;
     }
 
     private void SpawnPowerup()
     {
+        Debug.Log("Spawning powerup...");
         int randomIndex = Random.Range(0, powerupSpawnPoints.Length);
         int randomPowerup = Random.Range(0, 4);
 

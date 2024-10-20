@@ -7,10 +7,15 @@ public class HomingProjectile : MonoBehaviour
     public float speed = 8f;
     public float rotateSpeed = 200f;
     private Transform target;
-    
+
+    private GameObject shooter;
+
     void Start()
     {
-        // Find the nearest enemy (or player in multiplayer)
+        // Get reference to the shooter
+        shooter = GetComponent<ProjectileShooterReference>().shooter;
+
+        // Find the other player as the target
         FindTarget();
     }
 
@@ -18,29 +23,78 @@ public class HomingProjectile : MonoBehaviour
     {
         if (target != null)
         {
+            // Calculate the direction to the target
             Vector3 direction = (target.position - transform.position).normalized;
-            Vector3 rotateAmount = Vector3.Cross(transform.forward, direction);
-            transform.Rotate(rotateAmount * rotateSpeed * Time.deltaTime);
+            // Calculate the rotation step
+            float rotateStep = rotateSpeed * Time.deltaTime;
+            // Determine the new direction by rotating towards the target
+            Vector3 newDirection = Vector3.RotateTowards(transform.forward, direction, rotateStep * Mathf.Deg2Rad, 0f);
+            // Apply the rotation
+            transform.rotation = Quaternion.LookRotation(newDirection);
+            // Move forward
+            transform.Translate(Vector3.forward * speed * Time.deltaTime);
+        }
+        else
+        {
+            // If no target, move forward
             transform.Translate(Vector3.forward * speed * Time.deltaTime);
         }
     }
 
-    private void FindTarget()
+    void FindTarget()
     {
-        // In Singleplayer/Coop, find the closest enemy
-        // In Multiplayer, find the other player
-        // (This can be updated to reference the correct game mode logic)
-        // Example for simplicity:
-        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
-        if (enemies.Length > 0)
+        // Find the other player
+        if (shooter.CompareTag("Player1"))
         {
-            target = enemies[0].transform;  // Pick the first enemy for now (you can refine this later)
+            GameObject player2 = GameObject.FindGameObjectWithTag("Player2");
+            if (player2 != null)
+            {
+                target = player2.transform;
+            }
+        }
+        else if (shooter.CompareTag("Player2"))
+        {
+            GameObject player1 = GameObject.FindGameObjectWithTag("Player1");
+            if (player1 != null)
+            {
+                target = player1.transform;
+            }
         }
     }
 
-    void OnCollisionEnter(Collision other)
+    void OnCollisionEnter(Collision collision)
     {
-        // Destroy the projectile on impact
+        if (collision.gameObject == shooter)
+        {
+            // Ignore collision with the shooter
+            return;
+        }
+
+        if (collision.gameObject.CompareTag("Player1") || collision.gameObject.CompareTag("Player2"))
+        {
+            Debug.Log("Homing projectile hit player: " + collision.gameObject.name);
+            Destroy(collision.gameObject);
+
+            // Handle player respawn
+            MultiplayerGameManager gameManager = FindObjectOfType<MultiplayerGameManager>();
+            if (gameManager != null)
+            {
+                if (collision.gameObject.CompareTag("Player1"))
+                {
+                    gameManager.RespawnPlayer1();
+                }
+                else if (collision.gameObject.CompareTag("Player2"))
+                {
+                    gameManager.RespawnPlayer2();
+                }
+            }
+            else
+            {
+                Debug.LogError("MultiplayerGameManager not found in the scene.");
+            }
+        }
+
+        // Destroy the homing projectile on impact
         Destroy(gameObject);
     }
 }
