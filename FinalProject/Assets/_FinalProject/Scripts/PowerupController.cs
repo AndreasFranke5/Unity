@@ -15,22 +15,43 @@ public class PowerupController : MonoBehaviour
     public GameObject player2MortarPrefab;
     public GameObject player1MultishotPrefab;
     public GameObject player2MultishotPrefab;
+    private bool isCollected = false;
+
 
     private void OnTriggerEnter(Collider other)
-    {
-        Debug.Log("Power-up collided with: " + other.gameObject.name);
-        if (other.CompareTag("Player1"))
-        {
-            TransformPlayer(other.gameObject, true);  // Player1 collects the powerup
-        }
-        else if (other.CompareTag("Player2"))
-        {
-            TransformPlayer(other.gameObject, false);  // Player2 collects the powerup
-        }
+{
+    Debug.Log("Power-up collided with: " + other.gameObject.name);
 
-        // Destroy the powerup after it's collected
-        Destroy(gameObject);
+    if (other.CompareTag("Player1") || other.CompareTag("Player2"))
+    {
+        Debug.Log("Player detected: " + other.gameObject.name);
+
+        // Prevent multiple pickups
+        if (!isCollected)
+        {
+            isCollected = true;
+
+            // Disable the collider to prevent further triggers
+            Collider powerupCollider = GetComponent<Collider>();
+            if (powerupCollider != null)
+            {
+                powerupCollider.enabled = false;
+            }
+
+            TransformPlayer(other.gameObject);
+
+            // Mark the spawn point as unoccupied
+            if (spawnPoint != null)
+            {
+                spawnPoint.isOccupied = false;
+            }
+            
+            // Destroy the power-up
+            Destroy(gameObject);
+        }
     }
+}
+
 
     // Transforms the player based on the powerup collected
     void TransformPlayer(GameObject player, bool isPlayer1)

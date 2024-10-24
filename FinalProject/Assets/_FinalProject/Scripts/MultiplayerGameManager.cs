@@ -17,8 +17,9 @@ public class MultiplayerGameManager : MonoBehaviour, IGameManager
     public Transform player1SpawnPoint;
     public Transform player2SpawnPoint;
 
-    // Powerup spawn points
-    public Transform[] powerupSpawnPoints;
+    public PowerupSpawnPoint[] powerupSpawnPoints;
+    public PowerupSpawnPoint spawnPoint;
+
 
     // Timing for powerups
     public float powerupSpawnInterval = 10f;  // Interval between powerup spawns
@@ -74,15 +75,67 @@ public class MultiplayerGameManager : MonoBehaviour, IGameManager
         }
     }
 
-    // Method to spawn powerups at random points with random powerup types
-    private void SpawnPowerup()
+    [System.Serializable]
+    public class PowerupSpawnPoint
     {
-        Debug.Log("Spawning Powerup...");
-        int randomIndex = Random.Range(0, powerupSpawnPoints.Length);
+        public Transform spawnTransform;
+        public bool isOccupied;
+    }
+
+private void SpawnPowerup()
+{
+    Debug.Log("Spawning Powerup...");
+
+    // Get a list of unoccupied spawn points
+    List<PowerupSpawnPoint> availableSpawnPoints = new List<PowerupSpawnPoint>();
+    foreach (var spawnPoint in powerupSpawnPoints)
+    {
+        if (!spawnPoint.isOccupied)
+        {
+            availableSpawnPoints.Add(spawnPoint);
+        }
+    }
+
+    if (availableSpawnPoints.Count == 0)
+    {
+        Debug.Log("No available spawn points for power-ups.");
+        return; // Exit if no spawn points are available
+    }
+
+    // Select a random available spawn point
+    int randomIndex = Random.Range(0, availableSpawnPoints.Count);
+    PowerupSpawnPoint selectedSpawnPoint = availableSpawnPoints[randomIndex];
+
+    // Select the power-up to spawn (since only laser is enabled)
+    GameObject powerupToSpawn = powerupLaserPrefab;
+
+    // Spawn the selected power-up
+    GameObject spawnedPowerup = Instantiate(powerupToSpawn, selectedSpawnPoint.spawnTransform.position, powerupToSpawn.transform.rotation);
+
+    // Mark the spawn point as occupied
+    selectedSpawnPoint.isOccupied = true;
+
+    // Let the power-up know which spawn point it came from
+    PowerupController powerupController = spawnedPowerup.GetComponent<PowerupController>();
+    if (powerupController != null)
+    {
+        powerupController.spawnPoint = selectedSpawnPoint;
+    }
+    else
+    {
+        Debug.LogError("PowerupController not found on the spawned power-up.");
+    }
+}
+
+    // Method to spawn powerups at random points with random powerup types
+    // private void SpawnPowerup()
+    // {
+    //     Debug.Log("Spawning Powerup...");
+    //     int randomIndex = Random.Range(0, powerupSpawnPoints.Length);
         // int randomPowerup = Random.Range(0, 1); // 4 powerup types
 
         // GameObject powerupToSpawn = null;
-        GameObject powerupToSpawn = powerupLaserPrefab; // Temporarily only allow laser powerup
+        // GameObject powerupToSpawn = powerupLaserPrefab; // Temporarily only allow laser powerup
 
         // Randomly select the powerup type to spawn
         // switch (randomPowerup)
@@ -102,8 +155,8 @@ public class MultiplayerGameManager : MonoBehaviour, IGameManager
         // }
 
         // Spawn the selected powerup
-        Instantiate(powerupToSpawn, powerupSpawnPoints[randomIndex].position, powerupToSpawn.transform.rotation);
-    }
+    //     Instantiate(powerupToSpawn, powerupSpawnPoints[randomIndex].position, powerupToSpawn.transform.rotation);
+    // }
 
     // Method to handle player 1 transformation after picking up a powerup
     public void TransformPlayer1(GameObject newPlayerPrefab)
