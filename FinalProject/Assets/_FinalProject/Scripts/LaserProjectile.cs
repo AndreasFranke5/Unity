@@ -5,7 +5,7 @@ using UnityEngine;
 public class LaserProjectile : MonoBehaviour
 {
     public float laserDuration = 0.2f;  // Short duration since laser is instant
-    public float laserDistance = 50f;    // Adjust as needed
+    public float laserDistance = 50f;
     public LayerMask hitMask;            // Layer mask to specify what the laser can hit
 
     public Material laserMaterial;       // Material for the laser

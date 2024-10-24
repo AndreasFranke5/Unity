@@ -19,7 +19,7 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-    void OnDestroy() // Assuming enemies get destroyed when shot
+    void OnDestroy()
     {
         if (singleplayerGameManager != null)
         {

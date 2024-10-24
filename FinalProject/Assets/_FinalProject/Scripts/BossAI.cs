@@ -8,8 +8,8 @@ public class BossAI : MonoBehaviour
     public Transform player1;
     public Transform player2;
     
-    public GameObject projectilePrefab;  // Assign your ProjectilePrefabBoss here
-    public Transform firePoint;          // Where the projectile will spawn from
+    public GameObject projectilePrefab;
+    public Transform firePoint;
     public float fireRate = 3f;          // Time between shots
     public float projectileSpeed = 20f;  // Speed of the boss's projectile
     public float moveSpeed = 2f;         // Speed of the boss movement

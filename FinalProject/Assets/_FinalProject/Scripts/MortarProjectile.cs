@@ -64,7 +64,5 @@ public class MortarProjectile : MonoBehaviour
                 }
             }
         }
-
-        // Optionally, add explosion effects (e.g., particle system, sound)
     }
 }
